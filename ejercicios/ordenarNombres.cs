@@ -12,7 +12,7 @@ namespace ordenarNombres
                 WriteLine("Introduce un nombre o Intro para terminar: ");
                 string? nombre = ReadLine();
                 if (nombre == "") break;
-                else listaNombres.Add(nombre);
+                else if(nombre !=null) listaNombres.Add(nombre);
             }
             listaNombres.Sort();
 
