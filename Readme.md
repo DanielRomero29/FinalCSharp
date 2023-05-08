@@ -22,4 +22,4 @@ Este repositorio contiene 15 ejercicios, cada uno en su respectivo archivo y un 
 
 
 
-![main](images\main.png)
+![main](images/main.png)
