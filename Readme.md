@@ -19,3 +19,7 @@
 ## ¿Qué contiene este repositorio?
 
 Este repositorio contiene 15 ejercicios, cada uno en su respectivo archivo y un main desde donde se ejecutará el programa mostrando el menú para escoger la opción preferida.
+
+
+
+![main](images\main.png)
