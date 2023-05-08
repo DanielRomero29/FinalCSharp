@@ -5,7 +5,7 @@ namespace parImpar
 {
     class Program
     {
-        public static void parIm()
+        public void parIm()
         {
             while(true){
                 int numero = 0;

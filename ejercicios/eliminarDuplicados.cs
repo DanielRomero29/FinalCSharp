@@ -5,7 +5,7 @@ namespace eliminarDuplicados
 {
     class Program
     {
-        public static void elimDupli()
+        public void elimDupli()
         {
             List<int> numeros = new List<int>();
 

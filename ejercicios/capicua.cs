@@ -5,7 +5,7 @@ namespace capicua
 {
     class Program
     {
-        public static void capi()
+        public void capi()
         {
             while(true){
                 Console.Write("Ingresa un número: ");

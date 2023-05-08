@@ -5,7 +5,7 @@ namespace ordenarNombres
 {
     class Program
     {
-        public static void ordenarNom()
+        public void ordenarNom()
         {
             List<string> listaNombres = new List<string>();
             while(true){

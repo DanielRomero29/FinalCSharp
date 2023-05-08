@@ -5,7 +5,7 @@ namespace factorial
 {
     class Program
     {
-        public static void fac()
+        public void fac()
         {
             int num; 
             int factorial = 1;

@@ -5,7 +5,7 @@ namespace adivinarNumero
 {
     class Program
     {
-        public static void adivNum()
+        public void adivNum()
         {
             Random random = new Random();
             int numeroAleatorio = random.Next(1, 101);

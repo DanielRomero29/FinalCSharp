@@ -5,7 +5,7 @@ namespace anagrama
 {
     class Program
     {
-        public static void anag()
+        public void anag()
         {
             while(true)
             {

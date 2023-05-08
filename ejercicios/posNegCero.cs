@@ -5,7 +5,7 @@ namespace posNegCero
 {
     class Program
     {
-        public static void posNegaCero()
+        public void posNegaCero()
         {
             int num;
             while(true){

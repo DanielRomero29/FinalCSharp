@@ -5,7 +5,7 @@ namespace sumaNumeros
 {
     class Program
     {
-        public static void numerosPares()
+        public void numerosPares()
         {
             List<int> numeros = new List<int>();
             int suma = 0;

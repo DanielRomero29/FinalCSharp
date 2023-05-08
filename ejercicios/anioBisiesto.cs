@@ -5,7 +5,7 @@ namespace anioBisiesto
 {
     class Program
     {
-        public static void anioBi()
+        public void anioBi()
         {
             while(true){
                 Write("Ingrese un año: ");

@@ -27,21 +27,21 @@ class Program
 
             WriteLine("Escoja una opción o 0 para terminar el programa: ");
             string? opcion = ReadLine();
-            if(opcion == "1") menorMayor.Program.meMay();
-            if(opcion == "2") parImpar.Program.parIm();
-            if(opcion == "3") anioBisiesto.Program.anioBi();
-            if(opcion == "4") palabraPalin.Program.palindroma();
-            if(opcion == "5") ordenarNombres.Program.ordenarNom();
-            if(opcion == "6") factorial.Program.fac();
-            if(opcion == "7") numeroPrimo.Program.primo();
-            if(opcion == "8") areaVolum.Program.areaVolumen();
-            if(opcion == "9") sumaNumeros.Program.numerosPares();
-            if(opcion == "10") posNegCero.Program.posNegaCero();
-            if(opcion == "11") mediaLista.Program.media();
-            if(opcion == "12") adivinarNumero.Program.adivNum();
-            if(opcion == "13") anagrama.Program.anag();
-            if(opcion == "14") eliminarDuplicados.Program.elimDupli();
-            if(opcion == "15") capicua.Program.capi();
+            if(opcion == "1") new menorMayor.Program().meMay();
+            if(opcion == "2") new parImpar.Program().parIm();
+            if(opcion == "3") new anioBisiesto.Program().anioBi();
+            if(opcion == "4") new palabraPalin.Program().palindroma();
+            if(opcion == "5") new ordenarNombres.Program().ordenarNom();
+            if(opcion == "6") new factorial.Program().fac();
+            if(opcion == "7") new numeroPrimo.Program().primo();
+            if(opcion == "8") new areaVolum.Program().areaVolumen();
+            if(opcion == "9") new sumaNumeros.Program().numerosPares();
+            if(opcion == "10") new posNegCero.Program().posNegaCero();
+            if(opcion == "11") new mediaLista.Program().media();
+            if(opcion == "12") new adivinarNumero.Program().adivNum();
+            if(opcion == "13") new anagrama.Program().anag();
+            if(opcion == "14") new eliminarDuplicados.Program().elimDupli();
+            if(opcion == "15") new capicua.Program().capi();
             if(opcion == "0"){
                 WriteLine("Nos vemos!");
                 break;

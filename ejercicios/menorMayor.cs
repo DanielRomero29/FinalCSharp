@@ -4,7 +4,7 @@ namespace menorMayor
 {
     class Program
     {
-        public static void meMay()
+        public void meMay()
         {
             List<int> listaNumeros = new List<int>();
             while(true)

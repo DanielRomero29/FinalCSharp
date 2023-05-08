@@ -5,7 +5,7 @@ namespace mediaLista
 {
     class Program
     {
-        public static void media()
+        public void media()
         {
             List<int> listaNumeros = new List<int>();
             while(true){

@@ -5,7 +5,7 @@ namespace palabraPalin
 {
     class Program
     {
-        public static void palindroma()
+        public void palindroma()
         {
             bool palindroma = false;
         while (true)

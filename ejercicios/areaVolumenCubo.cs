@@ -5,7 +5,7 @@ namespace areaVolum
 {
     class Program
     {
-        public static void areaVolumen()
+        public void areaVolumen()
         {
             double lado = 0, area, volumen;
             while(true){
