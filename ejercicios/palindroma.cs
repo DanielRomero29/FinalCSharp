@@ -10,11 +10,13 @@ namespace palabraPalin
             bool palindroma = false;
         while (true)
         {
-            WriteLine("Introduce una palabra de minimo 2 letras: ");
+            WriteLine("Introduce una palabra o frase: ");
             string? palabra = ReadLine();
-            if(palabra != null && palabra.Length > 2)
+            if(palabra != null)
             {
-
+                string palabraOriginal = palabra;
+                palabra = palabra.ToLower().Replace(" ", "");
+                
                 List<char> palabraInversa = new List<char>(palabra.Reverse());
                 for (int i = 0; i < palabra.Length; i++)
                 {
@@ -25,8 +27,8 @@ namespace palabraPalin
                         break;
                     }
                 }
-                if (palindroma == true) WriteLine($"{palabra} es palindroma");
-                else WriteLine($"{palabra} no es palindroma");
+                if (palindroma == true) WriteLine($"{palabraOriginal} es palindroma");
+                else WriteLine($"{palabraOriginal} no es palindroma");
                 break;
             }
             else WriteLine("La palabra no es correcta");
